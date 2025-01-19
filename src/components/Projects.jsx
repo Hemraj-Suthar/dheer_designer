@@ -21,6 +21,24 @@ const projects = [
         image: conferenceRoom1,
         bannerImage: conferenceRoom2,
         images: [conferenceRoom3, conferenceRoom4]
+    },
+    {
+        id: 3,
+        title: 'Living Room Design',
+        description: 'Modern living room with neutral tones.',
+        fullDescription: 'A beautiful modern living room design with open space and neutral tones.',
+        image: conferenceRoom1,
+        bannerImage: conferenceRoom2,
+        images: [conferenceRoom3, conferenceRoom4]
+    },
+    {
+        id: 4,
+        title: 'Kitchen Design',
+        description: 'Contemporary kitchen with minimalist style.',
+        fullDescription: 'A sleek and contemporary kitchen design with clean lines and minimalist styling.',
+        image: conferenceRoom1,
+        bannerImage: conferenceRoom2,
+        images: [conferenceRoom3, conferenceRoom4]
     }
 ]
 
