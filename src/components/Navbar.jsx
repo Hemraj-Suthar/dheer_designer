@@ -13,13 +13,13 @@ function Navbar() {
                 <a href="/">Home</a>
             </li>
             <li className="p-2">
-                <a href="/course">Project</a>
+                <a href="/projects">Projects</a>
             </li>
             <li className="p-2">
-                <a href="/contact">Contact</a>
+                <a href="/contact">Contact Us</a>
             </li>
             <li className="p-2">
-                <a href="/about">About</a>
+                <a href="/about">About Us</a>
             </li>
         </>
     );

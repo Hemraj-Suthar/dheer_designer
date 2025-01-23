@@ -23,24 +23,27 @@ const ProjectDetail = () => {
                     ))}
                 </div>
             </section>
-            <section>
-                <h2 className="text-2xl text-center text-white mb-6">Featured Projects</h2>
-                <div className="projects-container max-w-screen-2xl container mx-auto md:px-20 mb-10">
-                    {projects.map((project) => (
-                        <div key={project.id} className="card">
-                            <Link to={`/project/${project.id}`} className="project-card">
-                                <img src={project.image} alt={project.title} />
-                                <div className="overlay">
-                                    <h2 className="card-title text-3xl">{project.title}</h2>
-                                    <p className="card-text">{project.description}</p>
-                                </div>
-                            </Link>
-                        </div>
-                    ))}
-                </div>
-            </section>
         </>
     );
 };
 
 export default ProjectDetail;
+
+
+
+{/* <section>
+<h2 className="text-2xl text-center text-white mb-6">Featured Projects</h2>
+<div className="projects-container max-w-screen-2xl container mx-auto md:px-20 mb-10">
+    {projects.map((project) => (
+        <div key={project.id} className="card">
+            <Link to={`/project/${project.id}`} className="project-card">
+                <img src={project.image} alt={project.title} />
+                <div className="overlay">
+                    <h2 className="card-title text-3xl">{project.title}</h2>
+                    <p className="card-text">{project.description}</p>
+                </div>
+            </Link>
+        </div>
+    ))}
+</div>
+</section> */}
