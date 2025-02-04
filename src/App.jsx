@@ -9,6 +9,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import ProjectList from './components/ProjectList';
 import ProjectDetail from './components/ProjectDetail';
+import WhatsappLink from './components/WhatsappLink';
 // import projects from './src/Projects.jsx';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                 <Route path="*" element={<Home />} />
                 {/* <Route path="/" element={<ProjectList />} /> */}
             </Routes>
+            <WhatsappLink/>
             <Footer/>
         </Router>
     );

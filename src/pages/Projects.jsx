@@ -4,7 +4,7 @@ import ProjectList from "../components/ProjectList";
 
 const Projects = () => {
     return (
-        <main className="max-w-4xl mx-auto px-4 text-white">
+        <main className="max-w-screen-2xl container mx-auto px-4 text-white">
             <ProjectList/>
         </main>
     );

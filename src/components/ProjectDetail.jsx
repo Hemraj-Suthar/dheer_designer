@@ -10,7 +10,6 @@ const ProjectDetail = () => {
     return (
         <>
             <section className="max-w-screen-2xl container mx-auto md:px-20">
-                <div className="banner" style={{ backgroundImage: `url(${project.bannerImage})` }}></div>
                 <div className="description text-white">
                     <h2 className="text-2xl">{project.title}</h2>
                     <p className="mt-4">{project.fullDescription}</p>
