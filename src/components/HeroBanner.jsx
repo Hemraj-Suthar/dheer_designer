@@ -1,6 +1,4 @@
 import React from "react";
-import projects from "./Projects.jsx";
-import { Link } from "react-router-dom";
 
 const HeroBanner = () => {
 
