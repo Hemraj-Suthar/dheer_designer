@@ -22,7 +22,7 @@ function App() {
                 <Route path="/project/:id" element={<ProjectDetail />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/about" element={<About />} />
-                <Route path="*" element={<Home />} />
+                {/* <Route path="*" element={<Home />} /> */}
                 {/* <Route path="/" element={<ProjectList />} /> */}
             </Routes>
             <WhatsappLink/>
