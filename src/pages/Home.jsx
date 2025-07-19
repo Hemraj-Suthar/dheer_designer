@@ -6,7 +6,7 @@ import ProjectList from "../components/ProjectList";
 const Home = () => {
     return (
         // <div className="container mx-auto md:px-20"></div>
-        <main className="max-w-screen-2xl container mx-auto px-4 text-white">
+        <main className="max-w-screen-2xl container mx-auto px-4 text-black">
             <HeroBanner/>
             <ProjectList/>
         </main>

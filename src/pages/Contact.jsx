@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <main className="max-w-4xl mx-auto px-4 py-16 text-white">
+        <main className="max-w-4xl mx-auto px-4 py-16 text-black">
             <h1 className="text-4xl font-bold text-center mb-12">I'd love to hear from you!!</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
                 <div className="rounded-lg border text-zinc-950 shadow-sm dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-50 bg-zinc-900 border-zinc-800">
@@ -62,7 +62,7 @@ const Contact = () => {
             </div>
             <section className="text-center mb-16">
                 <h2 className="text-3xl font-bold mb-4">Lets work together on your next project</h2>
-                <p className="text-white/70 mb-8 max-w-2xl mx-auto">
+                <p className="  mb-8 max-w-2xl mx-auto">
                     Collaboration is key! Lets join forces and combine our skills to tackle your next project with a powerful synergy that guarantees success
                 </p>
             </section>

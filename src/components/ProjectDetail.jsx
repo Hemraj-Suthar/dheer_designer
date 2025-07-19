@@ -10,14 +10,14 @@ const ProjectDetail = () => {
     return (
         <>
             <section className="max-w-screen-2xl container mx-auto md:px-20">
-                <div className="description text-white">
-                    <h2 className="text-2xl">{project.title}</h2>
+                <div className="description text-black font-bold">
+                    <h2 className="text-3xl">{project.title}</h2>
                     <p className="mt-4">{project.fullDescription}</p>
                 </div>
                 <div className="project-images">
                     {project.images.map((img, index) => (
-                        <div key={index}>
-                            <img src={img} alt={`Project Image ${index + 1}`} className="project-image" />
+                        <div key={index} className="h-64 w-full overflow-hidden">
+                            <img src={img} alt={`Project Image ${index + 1}`} className="w-full h-full object-cover" />
                         </div>
                     ))}
                 </div>
