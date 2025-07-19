@@ -10,23 +10,26 @@ import About from './pages/About';
 import ProjectList from './components/ProjectList';
 import ProjectDetail from './components/ProjectDetail';
 import WhatsappLink from './components/WhatsappLink';
+import AppLayout from './pages/AppLayout';
 // import projects from './src/Projects.jsx';
 
 function App() {
     return (
         <Router>
-            <Navbar/>
+            {/* <Navbar/> */}
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/project/:id" element={<ProjectDetail />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/about" element={<About />} />
-                {/* <Route path="*" element={<Home />} /> */}
-                {/* <Route path="/" element={<ProjectList />} /> */}
+                <Route path='/' element={<AppLayout/>} >
+                    <Route index element={<Home />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/project/:id" element={<ProjectDetail />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/about" element={<About />} />
+                    {/* <Route path="*" element={<Home />} /> */}
+                    {/* <Route path="/" element={<ProjectList />} /> */}
+                </Route>
             </Routes>
-            <WhatsappLink/>
-            <Footer/>
+            {/* <WhatsappLink/> */}
+            {/* <Footer/> */}
         </Router>
     );
 }
