@@ -32,7 +32,7 @@ const projects = [
         description: '',
         fullDescription: '',
         image: Swastik,
-        images: [Swastik1, Swastik2, Swastik3, Swastik4, Swastik5, Swastik6, Swastik7, Swastik8, Swastik9, Swastik10, Swastik11, Swastik12, Swastik13, Swastik14, Swastik15]
+        images: [Swastik, Swastik1, Swastik2, Swastik3, Swastik4, Swastik5, Swastik6, Swastik7, Swastik8, Swastik9, Swastik10, Swastik11, Swastik12, Swastik13, Swastik14, Swastik15]
     },
     {
         id: 2,
@@ -40,7 +40,7 @@ const projects = [
         description: '',
         fullDescription: '',
         image: Abhinandan,
-        images: [Abhinandan, Abhinandan1, Abhinandan2, Abhinandan3, Abhinandan4, Abhinandan5, Abhinandan6, Abhinandan7, Abhinandan8]
+        images: [Abhinandan, Abhinandan, Abhinandan1, Abhinandan2, Abhinandan3, Abhinandan4, Abhinandan5, Abhinandan6, Abhinandan7, Abhinandan8]
     }
 ]
 
