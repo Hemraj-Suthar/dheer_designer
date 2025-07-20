@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Dheer_logo from '../assets/Dheer_logo.png';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -12,16 +13,16 @@ function Navbar() {
     const navItems = (
         <>
             <li className="p-2">
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
             </li>
             <li className="p-2">
-                <a href="/projects">Projects</a>
+                <Link to="/projects">Projects</Link>
             </li>
             <li className="p-2">
-                <a href="/contact">Contact Us</a>
+                <Link to="/contact">Contact Us</Link>
             </li>
             <li className="p-2">
-                <a href="/about">About Us</a>
+                <Link to="/about">About Us</Link>
             </li>
         </>
     );

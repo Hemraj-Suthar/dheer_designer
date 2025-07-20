@@ -26,9 +26,9 @@ const ProjectList = () => {
             <section className="max-w-7xl mx-auto px-4 py-16 text-center">
                 <h2 className="text-3xl font-bold mb-4">Lets work together on your next project</h2>
                 <p className="  mb-8 max-w-2xl mx-auto">Looking forward to help you bring and provide my skills to solve your next project with a great UI/UX design.</p>
-                <a className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-2xl inline-block text-center" href="/contact">
+                <Link to="/contact" className="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-2xl inline-block text-center">
                     Contact me
-                </a>
+                </Link>
             </section>
         </>
     );
