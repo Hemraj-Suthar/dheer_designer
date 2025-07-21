@@ -68,8 +68,11 @@ const ProjectDetail = () => {
                     </div>
                     <div className="project-images">
                         {project.images.map((img, index) => (
-                            <div key={index} className="h-64 w-full overflow-hidden cursor-pointer rounded-lg" onClick={() => handleClick(index)}>
+                            <div key={index} className="project-card h-64 w-full overflow-hidden cursor-pointer rounded-lg" onClick={() => handleClick(index)}>
                                 <img src={img} alt={`Project Image ${index + 1}`} className="w-full h-full object-cover" />
+                                <div className="overlay">
+                                    <h2 className="card-title text-3xl">Click to see full image</h2>
+                                </div>
                             </div>
                         ))}
                     </div>
